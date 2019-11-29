@@ -16,14 +16,14 @@ module.exports = {
   themeConfig: {
     disableDarkMode: true,
     navbar: {
-      title: 'My Site',
+      title: 'Fechs In The City',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/doc1', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/doc1', label: 'MeetUps', position: 'left'},
+        {to: 'blog', label: 'About Us', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
