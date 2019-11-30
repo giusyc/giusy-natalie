@@ -6,8 +6,8 @@
  */
 
 module.exports = {
-  title: 'Hello World',
-  tagline: 'Hello Natalie',
+  title: 'Fechs In The City',
+  tagline: 'Female Techs In The City',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -24,6 +24,7 @@ module.exports = {
       links: [
         {to: 'docs/doc1', label: 'MeetUps', position: 'left'},
         {to: 'blog', label: 'About Us', position: 'left'},
+        {to: 'contactus', label: 'Contact Us', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
