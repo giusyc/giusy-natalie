@@ -15,48 +15,50 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Natalie Cyreus</>,
+    imageUrl: 'https://scontent-arn2-1.cdninstagram.com/vp/fe95e87873515561d07ccc1978efa8f5/5E6C3CF8/t51.2885-19/s320x320/67524515_1050566435333937_1374925911710760960_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        System / web engineer @ Swedish Public Television (SVT)
       </>
     ),
+    articleUrl: '/nataliecyreus',
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Giusy Castiglione</>,
+    imageUrl: 'https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/20645314_10159300516305650_3379987777671577749_o.jpg?_nc_cat=107&_nc_ohc=_akJ0x4Rpq0AQnOijijnrFltKYyQFwSkxqiDARFtKL8SzC9qsUsges6SA&_nc_ht=scontent-arn2-1.xx&oh=766cd8a77a9f884c3ee31349d11b3ecc&oe=5E6A2343',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      Global Technical Operations  @ Bloomberg & Founder @ Datespotz
       </>
     ),
-  },
-  {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+    articleUrl: '',
+  }
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, articleUrl}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('col col--4', styles.feature)}>
+    <div className={classnames('col col--6', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <h3><a href={articleUrl}>{title}</a></h3>
       <p>{description}</p>
+    </div>
+  );
+}
+
+function H2({text}) {
+  return (
+    <div className="container">
+      <div className="row">
+        <div className={classnames('col col--12', styles.feature)}>
+          <h2>{text}</h2>
+        </div>
+      </div>
     </div>
   );
 }
@@ -78,13 +80,14 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/doc1')}>
-              Get Started
+              to={useBaseUrl('https://github.com/giusyc/giusy-natalie')}>
+              View this website code on GitHub!
             </Link>
           </div>
         </div>
       </header>
       <main>
+        <H2 text="Writers"/>
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
