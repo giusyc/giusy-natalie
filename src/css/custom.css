@@ -13,11 +13,11 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #FFB6D5;
+  --ifm-color-primary: #582c6e;
   --ifm-color-primary-dark: #FF99CC;
   --ifm-color-primary-darker: #F47DBB;
   --ifm-color-primary-darkest: #d94496;
-  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-light: rgb(43,22,54);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
 }
@@ -28,3 +28,17 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Exa|Poppins&display=swap');
+
+body {
+  font-family: 'Lexend Exa', sans-serif;
+ }
+
+ p {
+  font-family: 'Poppins', sans-serif;
+ }
+
+/*
+#FFB6D5;
+*/
