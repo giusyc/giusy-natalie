@@ -3,7 +3,7 @@ id: what-is-the-internet
 title: What is the Internet?
 author: Natalie Cyreus
 author_title: System/web engineer @ Swedish Public Television (SVT)
-author_url: 
+author_url: /nataliecyreus
 author_image_url: https://scontent-arn2-1.cdninstagram.com/vp/fe95e87873515561d07ccc1978efa8f5/5E6C3CF8/t51.2885-19/s320x320/67524515_1050566435333937_1374925911710760960_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com
 tags: [internet, web, client, server, IP-adress, DNS]
 ---
