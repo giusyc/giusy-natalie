@@ -32,7 +32,7 @@ const features = [
       Global Technical Operations  @ Bloomberg & Founder @ Datespotz
       </>
     ),
-    articleUrl: '',
+    articleUrl: '/giusy',
   }
 ];
 
@@ -87,7 +87,9 @@ function Home() {
         </div>
       </header>
       <main>
-        <H2 text="Writers"/>
+        <div className="founders">
+        <H2 text="Founders"/>
+        </div>
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
