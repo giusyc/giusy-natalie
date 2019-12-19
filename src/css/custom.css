@@ -13,7 +13,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #582c6e;
+  --ifm-color-primary:#F4BBFF;
   --ifm-color-primary-dark: #FF99CC;
   --ifm-color-primary-darker: #F47DBB;
   --ifm-color-primary-darkest: #d94496;
@@ -33,10 +33,12 @@
 
 body {
   font-family: 'Lexend Exa', sans-serif;
+  color:#DCBD62;
  }
 
  p {
   font-family: 'Poppins', sans-serif;
+  color: #DCBD62;
  }
 
 /*
