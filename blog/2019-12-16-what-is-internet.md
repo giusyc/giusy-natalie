@@ -12,11 +12,11 @@ tags: [internet, web, client, server, IP-adress, DNS]
 
 ## Client - Internet - Server
 <img src="/img/client-server.jpg" />
-A typical wesite is hosted on a web server. Servers are usually large computers in a server center conected to a network.
+A typical wesite is hosted on a web server. Servers are usually large computers in a server center connected to a network.
 
 ## DNS - IP Address
-When you type in a website name in the adress field, your computer makes a DNS search. 
-Each website has a uique number, called a IP-adress, which is similar to a phone number.
+When you type in a website name in the address field, your computer makes a DNS search. 
+Each website has a uique number, called a IP-address, which is similar to a phone number.
 
 DNS `Domain Name Servers` are like phone books. The DNS servers connect you to the right server.
 
@@ -28,17 +28,17 @@ You get back the IP adress:
 
     google.com has IPv6 address 2a00:1450:400f:806::200e
 
-## IP-adress - Server - Website
-Your computer uses the IP-adress to find the right web server and sends a request for the page.
+## IP-address - Server - Website
+Your computer uses the IP-address to find the right web server and sends a request for the page.
 
 The server process the request and find the right files.
-The server then send the right files to your computer. Websites are usually buildt with HTML, CSS, JavaScript and media files. 
+The server then send the right files to your computer. Websites are usually built with HTML, CSS, JavaScript and media files. 
 
 ## Browser display the page
 
 Your browser builds together all the files for the website and displays it. There are different types of browsers. Some of the most popular are `Google Chrome`, `Safari`, `Firefox`, `Internet Explorer` and `Microsoft Edge`.
 
-## What is the "Cloud"
+## What is the "Cloud"?
 
-Cloud Computing means that data can be stored on several maschines at differet locations, instead of just locally on a device.
+Cloud Computing means that data can be stored on several machines at differet locations, instead of just locally on a device.
 For cloud applications to work they need to be connected to the internet.
