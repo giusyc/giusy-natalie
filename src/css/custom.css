@@ -45,6 +45,12 @@ body {
    text-align: center;
  }
 
+ .hero__subtitle {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  
+}
+
 /*
 #FFB6D5;
 */
